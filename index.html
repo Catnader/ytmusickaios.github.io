@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>YouTube Music — KaiOS Launcher</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <header>
+    <img src="icons/icon-56.png" alt="icon" class="logo">
+    <h1>YT Music (KaiOS)</h1>
+  </header>
+
+  <main>
+    <div class="search-row">
+      <input id="q" placeholder="Search songs, artists, albums..." type="search" inputmode="search" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="actions">
+      <button id="openTrending">Open Trending</button>
+      <button id="openLibrary">Open Library</button>
+      <button id="openTopCharts">Open Top Charts</button>
+    </div>
+
+    <p class="note">This is a lightweight launcher that opens YouTube Music mobile pages in the browser. Full streaming requires the browser to support the site.</p>
+  </main>
+
+  <footer>
+    <small>Manifest: <code>webapp.webmanifest</code> • KaiOS 3.x style</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

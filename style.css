@@ -1,0 +1,12 @@
+/* Minimal KaiOS-friendly styles */
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:#0b0b0b;color:#fff}
+header{display:flex;align-items:center;gap:10px;padding:12px;background:#101010;border-bottom:1px solid rgba(255,255,255,0.04)}
+.logo{width:40px;height:40px;border-radius:6px}
+h1{font-size:14px;margin:0}
+main{padding:12px}
+.search-row{display:flex;gap:6px;margin-bottom:10px}
+input[type=search]{flex:1;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:#0f0f0f;color:#fff}
+button{padding:8px;border-radius:6px;border:0;background:#e51c23;color:#fff;font-weight:600}
+.actions{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.note{font-size:12px;color:#cfcfcf}
+footer{padding:10px;font-size:11px;color:#9b9b9b;text-align:center;border-top:1px solid rgba(255,255,255,0.03)}

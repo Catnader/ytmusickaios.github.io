@@ -1,0 +1,33 @@
+{
+  "name": "YouTube Music Launcher",
+  "description": "KaiOS 3.x compatible YouTube Music launcher.",
+  "type": "webapp",
+  "package_version": "3.0.0",
+
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+
+  "icons": {
+    "56": "/icons/icon-56.png",
+    "128": "/icons/icon-128.png"
+  },
+
+  "developer": {
+    "name": "You",
+    "url": "https://example.com"
+  },
+
+  "locales": {
+    "en": {
+      "name": "YouTube Music Launcher",
+      "description": "KaiOS 3.x compatible YouTube Music launcher."
+    }
+  },
+
+  "permissions": {},
+
+  "target": {
+    "platform": "kaios",
+    "min_version": "3.0.0"
+  }
+}
